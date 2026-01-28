@@ -1,5 +1,33 @@
 # Análisis de Evasión de Clientes (Churn) - Telecom X
 
+##  Diccionario de Datos
+Para facilitar la interpretación del análisis, se realizó un proceso de renombrado de variables, traduciendo los términos técnicos originales a un lenguaje de negocio claro en español.
+
+| Nombre Original (JSON/Raw) | Nombre Procesado | Descripción de la Variable |
+| :--- | :--- | :--- |
+| **customerID** | *Eliminada* | Identificador único (no aporta valor predictivo). |
+| **gender** | `Genero` | Género del cliente (Masculino/Femenino). |
+| **SeniorCitizen** | `Es_Adulto_Mayor` | Indica si el cliente es jubilado (0: No, 1: Sí). |
+| **Partner** | `Tiene_Pareja` | Indica si el cliente tiene pareja (Sí/No). |
+| **Dependents** | `Tiene_Dependientes` | Indica si el cliente vive con dependientes económicos. |
+| **tenure** | `Meses_Permanencia` | Número de meses que el cliente ha permanecido en la empresa. |
+| **PhoneService** | `Servicio_Telefonico` | Indica si tiene servicio de teléfono fijo. |
+| **MultipleLines** | `Lineas_Multiples` | Indica si tiene múltiples líneas telefónicas. |
+| **InternetService** | `Tipo_Internet` | Tipo de proveedor de internet (DSL, Fibra Óptica, No). |
+| **OnlineSecurity** | `Seguridad_Online` | Indica si tiene contratado el servicio de seguridad adicional. |
+| **OnlineBackup** | `Copia_Seguridad` | Servicio de respaldo en la nube. |
+| **DeviceProtection** | `Proteccion_Dispositivo` | Seguro de protección de equipos. |
+| **TechSupport** | `Soporte_Tecnico` | Servicio de soporte técnico dedicado. |
+| **StreamingTV** | `TV_Streaming` | Indica si usa el servicio de TV por internet. |
+| **StreamingMovies** | `Peliculas_Streaming` | Indica si usa el servicio de películas por streaming. |
+| **Contract** | `Tipo_Contrato` | Modalidad de contrato (Mes a mes, 1 año, 2 años). |
+| **PaperlessBilling** | `Facturacion_Digital` | Indica si recibe la factura de forma digital (sin papel). |
+| **PaymentMethod** | `Metodo_Pago` | Medio de pago (Cheque electrónico, tarjeta, transferencia, etc.). |
+| **MonthlyCharges** | `Cargos_Mensuales` | Monto cobrado al cliente mensualmente. |
+| **TotalCharges** | `Cargos_Totales` | Monto total cobrado al cliente durante toda su relación comercial. |
+| **Churn** | `Abandono` | **Variable Objetivo.** Indica si el cliente canceló el servicio (Sí/No). |
+
+
 ##  Descripción Ejecutiva
 Este proyecto aborda una problemática crítica de negocio para la empresa de telecomunicaciones **Telecom X**: la alta tasa de cancelación de suscriptores (*Churn*). 
 
