@@ -1,13 +1,13 @@
-# 📡 Análisis de Evasión de Clientes (Churn) - Telecom X
+# Análisis de Evasión de Clientes (Churn) - Telecom X
 
-## 📄 Descripción Ejecutiva
+##  Descripción Ejecutiva
 Este proyecto aborda una problemática crítica de negocio para la empresa de telecomunicaciones **Telecom X**: la alta tasa de cancelación de suscriptores (*Churn*). 
 
 Actuando bajo el rol de Analista de Datos, se desarrolló un ciclo completo de inteligencia de negocios (ETL y EDA) para transformar datos crudos en insights estratégicos, identificando los patrones de comportamiento de los clientes que abandonan la compañía y proponiendo acciones de retención basadas en evidencia.
 
 ---
 
-## 🛠️ Stack Tecnológico y Librerías
+##  Stack Tecnológico y Librerías
 El proyecto fue desarrollado íntegramente en **Python**, utilizando las siguientes librerías especializadas para cada etapa del proceso:
 
 * **`requests`**: Extracción de datos. Se utilizó para conectar con la API fuente y descargar la información cruda en formato JSON.
@@ -18,7 +18,7 @@ El proyecto fue desarrollado íntegramente en **Python**, utilizando las siguien
 
 ---
 
-## 🔄 Metodología del Proyecto
+##  Metodología del Proyecto
 
 ### 1. Extracción y Transformación (ETL)
 * **Normalización:** Se procesó un archivo JSON anidado proveniente de una API, reestructurando diccionarios complejos para obtener un dataset tabular limpio de **7,032 registros** y **21 columnas**.
@@ -32,7 +32,7 @@ Se realizaron análisis univariados y bivariados para detectar "puntos de dolor"
 
 ---
 
-## 📊 Principales Hallazgos (Insights)
+##  Principales Hallazgos (Insights)
 
 El análisis reveló patrones claros que explican la fuga de clientes:
 
@@ -43,7 +43,7 @@ El análisis reveló patrones claros que explican la fuga de clientes:
 
 ---
 
-## 🚀 Conclusiones y Recomendaciones
+##  Conclusiones y Recomendaciones
 Para mitigar la tasa de Churn, se sugieren las siguientes estrategias basadas en datos:
 * Implementar un programa de **Onboarding y Fidelización** agresivo durante el primer año de vida del cliente.
 * Incentivar la migración de pagos manuales a **Débito Automático** mediante descuentos porcentuales.
@@ -52,5 +52,5 @@ Para mitigar la tasa de Churn, se sugieren las siguientes estrategias basadas en
 
 ---
 
-## ✒️ Autor
+##  Autor
 **Maria Camila Sierra Ospina** *Junior Software Developer & Data Analyst* ```
